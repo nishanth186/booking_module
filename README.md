@@ -1,7 +1,14 @@
 ## About Facility Booking Module
 
-This is a simple Laravel-based application designed to manage the booking of facilities such as Clubhouse and Tennis Court. It allows users to book facilities, view existing bookings, and clear all session data.
+This Laravel-based application is designed to manage the booking of facilities such as Clubhouse and Tennis Court. It allows users to book facilities, view existing bookings, and clear all session data. 
 
+**Note:**
+(As per the requirement provided)
+- **Data Storage**: This application uses PHP sessions for data management instead of a database.
+- **UI**: The application does not use UI view files. All interactions are done via API endpoints. Use Postman to test and interact with the API endpoints.
+- **Session-Based**: Data is stored in the session, so until the session is cleared, bookings will be visible. Clearing the session will remove all bookings.
+
+  
 ## Features
 
 - **Facility Booking**: Reserve facilities with specified time slots.
@@ -65,7 +72,7 @@ This is a simple Laravel-based application designed to manage the booking of fac
 - **Request Example**:
   ```json
   {
-    "facility": "Clubhouse", (Should be Clubhouse or Tennis Court)
+    "facility": "Clubhouse", //Should be Clubhouse or Tennis Court
     "date": "2024-10-26",
     "start_time": "16:00",
     "end_time": "22:00"
