@@ -70,9 +70,10 @@ This Laravel-based application is designed to manage the booking of facilities s
       - `start_time` (string): Start time (H:i).
       - `end_time` (string): End time (H:i).
 - **Request Example**:
+
   ```json
   {
-    "facility": "Clubhouse", //Should be Clubhouse or Tennis Court
+    "facility": "Clubhouse",   //Should be Clubhouse or Tennis Court
     "date": "2024-10-26",
     "start_time": "16:00",
     "end_time": "22:00"
