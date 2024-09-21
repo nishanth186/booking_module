@@ -41,7 +41,7 @@ This Laravel-based application is designed to manage the booking of facilities s
     Copy the `.env.example` file to `.env` and configure your environment variables:
 
     ```bash
-    cp .env.example .env
+    copy .env.example .env
     ```
 
 4. **Generate Application Key**
