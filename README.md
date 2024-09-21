@@ -26,14 +26,17 @@ This Laravel-based application is designed to manage the booking of facilities s
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/nishanth186/Facility-booking-module.git
-    cd Facility-booking-module
+    git clone https://github.com/nishanth186/booking_module.git
+    cd booking_module
     ```
 
 2. **Install Dependencies**
 
     ```bash
     composer install
+    ```
+    ```bash
+    composer update
     ```
 
 3. **Set Up Environment**
